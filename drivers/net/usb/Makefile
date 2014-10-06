@@ -8,6 +8,7 @@ obj-$(CONFIG_USB_PEGASUS)	+= pegasus.o
 obj-$(CONFIG_USB_RTL8150)	+= rtl8150.o
 obj-$(CONFIG_USB_HSO)		+= hso.o
 obj-$(CONFIG_USB_NET_AX8817X)	+= asix.o
+obj-$(CONFIG_USB_NET_AX88179)	+= ax88179_178a.o
 obj-$(CONFIG_USB_NET_CDCETHER)	+= cdc_ether.o
 obj-$(CONFIG_USB_NET_CDC_EEM)	+= cdc_eem.o
 obj-$(CONFIG_USB_NET_DM9601)	+= dm9601.o
@@ -32,4 +33,3 @@ obj-$(CONFIG_USB_VL600)		+= lg-vl600.o
 rmnet_usb-y			:= rmnet_usb_ctrl.o rmnet_usb_data.o
 obj-$(CONFIG_MSM_RMNET_USB)	+= rmnet_usb.o
 obj-$(CONFIG_USB_NET_QMI_WWAN)	+= qmi_wwan.o
-
